@@ -1,0 +1,8 @@
+DocType         string  `json:"docType"`
+	ID              string  `json:"id"`
+	Name            string  `json:"name"`
+	Category        string  `json:"category"`
+	Origin          string  `json:"origin"`
+	UnitPrice       float64 `json:"unitPrice"`
+	UnitMeasurement string  `json:"unitMeasurement"`
+	Quantity        int     `json:"quantity"`

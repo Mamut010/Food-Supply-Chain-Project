@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admin Dashboard Login</title>
+        <link rel="stylesheet" href="css/login-legacy.css">
+        <script src="https//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+
+    <div class="container">
+        <div id="logoContainer">
+            <img src="./asset/images/food-supply-chain-logo.jpg" width="100px" />
+            <header>The Foo Project</header>
+        </div>
+        <h2>Login Form</h2>
+        <form id="submitForm" action="/api/auth/login" method="POST">
+          <div class="input-field">
+            <input type="text" required>
+            <label>Username</label>
+          </div>
+          <div class="input-field">
+            <input class="pswrd" type="password" required>
+            <span class="show">SHOW</span>
+            <label>Password</label>
+          </div>
+          <div class="button">
+            <div class="inner"></div>
+            <button>LOGIN</button>
+          </div>
+        </form>
+    </div>
+
+    <body>
+        <script src="./js/login-legacy.js"></script>
+    </body>
+</html>

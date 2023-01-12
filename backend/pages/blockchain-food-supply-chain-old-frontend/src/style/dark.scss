@@ -1,0 +1,147 @@
+.app.dark{
+    background-color: #111;
+    color: rgb(156,156,156);
+
+    .chatGrid{
+        stroke: rgba(228, 285, 228,0.219);
+    }
+
+    .table{
+        background-color: #111;
+
+        .tableCell,.status{
+            color: gray;
+        }
+    }
+
+    .navbar{
+        color: #999;
+        border-color: #333;
+
+        .search{
+            border-color: gray;
+        }
+    }
+
+    .sidebar{
+        background-color: #111;
+        border-color: #333;
+
+        .top{
+            .logo{
+                color: #999;
+            }
+        }
+        
+        hr{
+            border-color: #333;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+
+                .icon{
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .datatable{
+        .link {
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        color: rgb(100, 100, 100);
+        border-color: rgb(100, 100, 100);
+        background-color: rgb(190, 190, 190)
+        }
+        .datagrid {
+            color: gray;
+            border: none;
+            .viewButton,
+            .deleteButton {
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                color: rgb(100, 100, 100);
+                background-color: rgb(190, 190, 190);
+            }
+        }
+    }
+
+    input{
+        background-color: transparent;
+    }
+
+    .datatableproduct {
+        .link {
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                color: rgb(100, 100, 100);
+                border-color: rgb(100, 100, 100);
+                background-color: rgb(190, 190, 190)
+            }
+        .datagrid {
+            color: gray;
+            border: none;
+
+            .viewButton,
+            .deleteButton {
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                color: rgb(100, 100, 100);
+                background-color: rgb(190, 190, 190);
+            }
+        }
+    }
+
+    input {
+        background-color: transparent;
+    }
+
+    .datatablehistory {
+        .link {
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                color: rgb(100, 100, 100);
+                border-color: rgb(100, 100, 100);
+                background-color: rgb(190, 190, 190)
+            }
+        .datagrid {
+            color: gray;
+            border: none;
+
+            .viewButton,
+            .deleteButton {
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                color: rgb(100, 100, 100);
+                background-color: rgb(190, 190, 190);
+            }
+        }
+    }
+
+    input {
+        background-color: transparent;
+    }
+}
